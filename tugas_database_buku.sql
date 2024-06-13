@@ -14,12 +14,17 @@ insert into buku (judul, halaman, harga) values
 ('Cara menjadi diktator', 10, 903000),
 ('Cara menumbuhkan kumis', 16, 48000);
 
+-- untuk update harga buku yang memiliki id = 1
 update buku set harga = 160000 where id = 1;
 
+-- untuk menghapus colom buku yang memiliki id = 4
 delete from buku where id = 4;
 
+-- untuk menampilkan berapa banyak colom yang ada di dalam table buku
 select count(*) from buku ;
 
+-- untuk menampilkan harga yang paling tinggi yang ada di dalam table buku
 select max(harga) from buku;
 
+-- untuk menampilkan halaman yang paling banyak yang ada didalam tablle buku
 select max(halaman) from buku;
