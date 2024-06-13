@@ -8,7 +8,7 @@ create table buku (
 );
 
 insert into buku (judul, halaman, harga) values 
-('Cara menjadi anime', 280, 200000),
+('Cara menjadi mc anime', 280, 200000),
 ('Cara menjadi pria sigma', 120, 43800),
 ('Cara mewing yang baik dan benar', 100, 1400000),
 ('Cara menjadi diktator', 130, 903000),
