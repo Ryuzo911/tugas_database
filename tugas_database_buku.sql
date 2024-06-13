@@ -10,9 +10,9 @@ create table buku (
 insert into buku (judul, halaman, harga) values 
 ('Cara menjadi anime', 280, 200000),
 ('Cara menjadi pria sigma', 120, 43800),
-('Cara mewing yang baik dan benar', 1000, 1400000),
-('Cara menjadi diktator', 10, 903000),
-('Cara menumbuhkan kumis', 16, 48000);
+('Cara mewing yang baik dan benar', 100, 1400000),
+('Cara menjadi diktator', 130, 903000),
+('Cara menumbuhkan kumis', 116, 48000);
 
 -- untuk update harga buku yang memiliki id = 1
 update buku set harga = 160000 where id = 1;
